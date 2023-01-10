@@ -6,26 +6,36 @@ https://dribbble.com/shots/20333170-The-Trailers-Concept-Site-Part-2
 	box-sizing: border-box;
 }
 
+html, body { 
+    margin: 0;
+    padding: 0;
+}
+
 html {
     background:url(./img/mario02.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
+
 
 }
 
 .container {
     margin:0 auto;
-    background:black;
-    border-radius:50px;
-    padding:50px;
+    background-color: #05161E;
+    /* border-radius:50px; */
+    /* padding:50px; */
     color:#fff;
-    background-image:url(./img/mario02.jpg);
+    /* background-image:url(./img/mario02.jpg); */
     background-size: cover;
-    background-repeat:no-repeat;
+    /* background-repeat:no-repeat; */
     background-position-y:-150px;
     width:70%;
+}
+.movie-splash{
+    background:url(./img/mario02.jpg);
+    background-size: cover;
+    padding:0;
 }
 
 nav {
@@ -34,15 +44,25 @@ nav {
     justify-content: space-between;
     align-items:center;
     margin-bottom:400px;
+    padding: 50px;
+}
+
+section {
+    padding:0px 50px;
+    margin-bottom:20px;
 }
 
 input {
     background-color:black;
-    opacity: 0.8;
+    opacity: 0.4;
     color:#ccc;
     padding:10px;
     border-radius:10px;
     width:300px;
+}
+
+input:focus {
+    opacity: 0.8;
 }
 
 #logo {
@@ -50,6 +70,72 @@ input {
 }
 
 #header_details{
+    height:100%;
+}
+
+#movie_details {
+    display:flex;
+    gap:20px;
+    margin-bottom:20px;
+}
+
+#movie_tags ul {
+    padding:0;
+}
+
+#movie_tags ul li {
+    display:inline-block;
+    border:1px solid #fff;
+    margin-right:2px;
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background:grey;
+    opacity: .8    
+}
+
+#movie-details h4 {
+    font-size:24px;
+}
+
+.movie_details_title{
+    text-transform: uppercase;
+    text-orientation:sideways;
+    writing-mode: vertical-rl;
+    position: absolute;
+    left:15px;
+    text-align:center;
+}
+
+.movie_details_content{
+    font-size:24px;
+}
+
+.movie_details_box {
+    width:20%;
+    background-color:black;
+    opacity: 0.7;
+    height:100px;
+    padding:15px;
+    display:flex;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    border-radius:15px;
+}
+
+#main_details {
     
 }
 
+#movie_related {
+    display:flex;
+    gap:20px;
+}
+.related_movie {
+    width:20%;
+    background:green;
+    height:150px;
+    margin:20px 0px;
+}
