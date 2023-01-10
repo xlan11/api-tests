@@ -1,0 +1,55 @@
+/*
+https://dribbble.com/shots/20333170-The-Trailers-Concept-Site-Part-2
+*/
+
+* { 
+	box-sizing: border-box;
+}
+
+html {
+    background:url(./img/mario02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+
+}
+
+.container {
+    margin:0 auto;
+    background:black;
+    border-radius:50px;
+    padding:50px;
+    color:#fff;
+    background-image:url(./img/mario02.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position-y:-150px;
+    width:70%;
+}
+
+nav {
+    height:50px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom:400px;
+}
+
+input {
+    background-color:black;
+    opacity: 0.8;
+    color:#ccc;
+    padding:10px;
+    border-radius:10px;
+    width:300px;
+}
+
+#logo {
+    text-transform: uppercase;
+}
+
+#header_details{
+    
+}
+

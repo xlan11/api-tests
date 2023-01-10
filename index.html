@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Movie selector</title>
 </head>
 <body>
-    
+    <div class="container">
+            <nav>
+            <div id="logo">
+                <h2><span><sup>The</sup></span> Movies</h2>
+            </div>
+            <div id="search">
+                <input type="text" placeholder="Search for a movie"/>
+            </div>
+        </nav>
+        <section id="header_details">
+            <div id="movie_director">Aaron Horvath</div>
+            <div id="movie_title">Super Mario Bros</div>
+            <div id="movie_tags">
+                <ul>
+                    <li>Animation</li>
+                    <li>Adventure</li>
+                    <li>Comedy</li>
+                </ul></div>
+            <div id="movie_details">
+                <div id="trailer" class="movie_details video"></div>
+                <div id="rating" class="movie_details">
+                    <span class="movie_details_title">rating</span>
+                    <h4>PG</h4>
+                </div>
+                <div id="release" class="movie_details">
+                    <span class="movie_details_title">release</span>
+                    <h4>PG</h4>
+                </div>
+                <div id="budget" class="movie_details">
+                    <span class="movie_details_title">budget</span>
+                    <h4>PG</h4>
+                </div>
+                <div id="length" class="movie_details">
+                    <span class="movie_details_title">length</span>
+                    <h4>PG</h4>
+                </div>
+            </div>
+        </section>
+        <section id="main_details">
+            <div id="movie_description">The story of The Super Mario Bros. on their journey through the Mushroom Kingdom</div>
+            <div id="movie_cast">
+                <div class="cast_member"></div>
+                <div class="cast_member"></div>
+                <div class="cast_member"></div>
+            </div>
+            <div id="movie_related">
+                <div class="related_movie"></div>
+            </div>
+        </section>
+    </div>
+    <script src="./app.js"></script>
 </body>
 </html>
