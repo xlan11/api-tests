@@ -184,10 +184,10 @@ input:focus {
 
 .cast_member img {
     width: 100px;
-height: 100px;
-object-fit: cover;
-object-position: center;
-border-radius:50%;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius:50%;
 }
 
 #movie_related {
